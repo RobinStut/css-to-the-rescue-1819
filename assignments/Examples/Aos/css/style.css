@@ -1,0 +1,54 @@
+body{
+background-color: white;
+height: 200vh;
+}
+
+.nav{
+  height: 100vh;
+  width: 100%;
+  background-color: yellow;
+}
+
+.content{
+height: 60px;
+width: 60px;
+background-color: green;
+position: sticky;
+top: 100px;
+}
+
+.container{
+height: 40em;
+width: 100vw;
+position: relative;
+margin-bottom: 300em;
+border: 2px solid black;
+}
+
+.animation{
+width: 5em;
+height: 5em;
+}
+
+@keyframes pulse {
+0% {
+  background-color: #001F3F;
+}
+
+100% {
+  background-color: #FF4136;
+}
+}
+
+
+[data-aos="created-animation"] {
+    animation: pulse 5s;
+  /* animation-fill-mode : forwards zorgt ervoor dat het laatste frame blijft hangen */
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}

@@ -1,0 +1,26 @@
+body{
+background-color: white;
+height: 200vh;
+}
+
+.nav{
+  height: 120px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.content{
+height: 60px;
+width: 60px;
+background-color: green;
+position: sticky;
+top: 100px;
+}
+
+.container{
+height: 40em;
+width: 10em;
+position: relative;
+margin-bottom: 300em;
+border: 2px solid black;
+}
